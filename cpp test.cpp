@@ -3,9 +3,19 @@ using namespace std;
 
 int main()
 {
-    string hrs;
-    getline(cin, hrs);
-    cout << hrs;
+    int n;
+    cout << "Input banyak nya perulangan : ";
+    cin >> n = 5;
 
-    return 0;
+    for (int i = 1; i <= n; i++)
+    {
+        if (i % 2 == 0)
+        {
+            cout << i << " adalah bilangan genap\n"
+        }
+        else
+        {
+            cout << i << " adalah bilangan ganjil\n"
+        }
+    }
 }
